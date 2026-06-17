@@ -17,4 +17,4 @@ _____
   - Значение «undefined»
   - Объекты и символы (Понимание, что такое есть)
   - Оператор typeof
-* alert, prompt, confirm
+* ~~alert, prompt, confirm~~
