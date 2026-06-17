@@ -1,7 +1,7 @@
 # stage_6_developer_roadmap
 JavaScript (ES6+)
 
-* ~~Введение в JavaScript~~
+* ~~Что такое JavaScript~~
 * ~~Справочники и спецификации~~
 * ~~Редакторы кода~~
 * ~~Консоль разработчика~~
