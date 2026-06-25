@@ -1,4 +1,5 @@
-# stage_6_developer_roadmap JavaScript
+# stage_6_developer_roadmap 
+# JavaScript
 
 https://learn.javascript.ru/
 https://metanit.com/web/javascript/2.9.php
