@@ -40,3 +40,4 @@ _____
 * ~~Циклы while и for~~
 * ~~Конструкция "switch"~~
 * ~~Функции~~
+* ~~Function Expression~~
