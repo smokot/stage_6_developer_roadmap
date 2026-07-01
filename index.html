@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+  let number = 123;
+  let n_float = 1223.123;
+
+  let bigInt = 12612626262n;
+
+  let stringe = "first";
+  let stringS = 'first';
+  let stringSs = `first ${stringe}`;
+
+  let booleans = true;
+
+  let nulki = null;
+
+  let ager = 123;
+
+  ager = undefined;
+
+  console.log(typeof(stringe));
+
+  // alert("zdarova");
+  //
+  // let result = prompt("delaesh?", "DAVAI");
+  //
+  // result = confirm("Точно делаешь?");
+
+  console.log(String(number));
+  console.log(Number(number));
+  console.log(("2" / "3"));
+
+  let x = 1;
+  x = -x;
+  console.log(x);
+  let a = 0;
+  let b = 20;
+
+  let c = 3 - (a = b + 1);
+  let fw = c = b = 100;
+
+  function outer() {
+      let n = 228;
+
+      function inside() {
+          n+=2;
+          console.log(n);
+      }
+      return inside;
+  }
+
+  let func = outer();
+  func();
+  func();
+  func();
+  func();
+
+
+  (function(){
+      console.log("Сам себя вызвал");
+  }());
+
+  function test() {
+      console.log("KOKO");
+
+      test = function() {
+          console.log("bogo");
+          test = function() {
+              console.log("dodo");
+          }
+      }
+  }
+
+  test();
+  test();
+  test();
+  test();
+
+
+
+  const obj = {
+      first: 2,
+      second: 12512,
+
+      test: function (x) {
+          console.log(x);
+      }
+  };
+
+  class Penis {
+      #age = 2260394693683434;
+
+      name = "tipo PENIS???";
+      func(x) {
+          console.log(x + "1");
+      }
+
+      #privatikMetodo() {
+          console.log("flkawjhb");
+      }
+
+      constructor(namabot) {
+          this.name = namabot;
+          this.#privatikMetodo();
+          console.log(this.#age);
+      }
+
+      set age(x) {
+          this.#age = x;
+      }
+
+      get age() {
+          return this.#age;
+      }
+  }
+
+  class Boobies extends Penis{
+      constructor(name, age) {
+          super(name);
+          this.age = age;
+      }
+
+      func(x) {
+          console.log(x + "2");
+      }
+  }
+
+  let objPenis = new Penis("xuyba");
+  objPenis.func(2352);
+  objPenis.func(2352);
+  objPenis.age = 900000000;
+  console.log(objPenis.age);
+
+  let objBoob = new Boobies("test", 124);
+  console.log(objBoob.age + "FWA");
+  console.log(objBoob.name);
+
+  const array = Array.from("Hello");
+  console.log(array);
+
+
+  const numbers = [1, 2, 3, 4];
+  const array2 = Array.from(numbers, n => n * n);
+
+  const newArr = [...array, ...numbers];
+  console.log(newArr);
+
+  const people = ["Tom", "Sam", "Bob"];
+
+  function print(first, second, third){
+      console.log(first);
+      console.log(second);
+      console.log(third);
+  }
+  print(...people);
+
+  people.unshift('test');
+  people.splice(1,0,'WOOOW');
+  people.shift();
+  people.splice(1, 1, 'viva','kalman')
+
+
+  const users = ["Tom", "Sam", "Bob", "Alice", "Kate"];
+  const peoples = users.copyWithin(1, 3, 5);
+
+  console.log(peoples.concat(peoples));
+  console.log(peoples.join(" = "));
+
+  const rndNums = [5,2,12,6,3200,523,100];
+  console.log(rndNums.sort((a,b) => a-b));
+  console.log(rndNums.reverse());
+  console.log(rndNums.filter( (n) => n % 2 === 0));
+  console.log(rndNums.map( n => n * 2));
+  console.log(rndNums.find( n => n >= 3200));
+
+  const rndNumsrrr = [5,2,12,6,[3200,[523]],100];
+  const res = rndNumsrrr.flat(3);
+  console.log(res.reduce((acc, elem) => {
+      return acc + elem;
+  }));
+
+  class Team extends Array{
+      constructor(name, ...members){
+          super(...members);
+          this.name = name;
+      }
+  }
+
+  const barcelona = new Team("Barcelona", "Tom", "Sam", "Bob");
+  console.log(barcelona);
+
+</script>
+
+
+</body>
+</html>
