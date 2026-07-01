@@ -59,4 +59,6 @@ _____
   - Array.from
   - spread-оператор
   - Передача аргументов функции
-  - Операции с массивами - push(), splice(), pop(), shift(), slice(), copyWithin(), indexOf(), lastIndexOf(), includes()
+  - Операции с массивами - push(), splice(), pop(), shift(), slice(), copyWithin(), indexOf(), lastIndexOf(), includes(), every(), some(), filter(), forEach(), map(), find(), findLast(), findIndex(), flat(), reduce()
+  - Наследование массивов
+* Строки и регулярные выражения
