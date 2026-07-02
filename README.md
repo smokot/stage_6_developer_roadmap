@@ -61,5 +61,17 @@ _____
   - Передача аргументов функции
   - Операции с массивами - push(), splice(), pop(), shift(), slice(), copyWithin(), indexOf(), lastIndexOf(), includes(), every(), some(), filter(), forEach(), map(), find(), findLast(), findIndex(), flat(), reduce()
   - Наследование массивов
-* Строки и регулярные выражения
+* ~~Строки и регулярные выражения~~
   - repeat(), indexOf(), lastIndexOf(), includes(), substring(startIndex, endIndex), slice(startIndex, endIndex), toUpperCase(), toLowerCase(), startsWith()
+  - Шаблоны строк
+  - Объект RegExp. Регулярные выражения = .test(), .exec()
+  - Синтаксис регулярных выражений
+  - Квантификаторы в регулярных выражениях
+  - Поиск в строке
+  - Группы в регулярных выражениях
+  - Именнованные группы (?<название_группы> ... )
+  - Регулярные выражения в методах String = match, split, search, replace
+* ~~Обработка ошибок~~
+  - Конструкция try..catch..finally
+  - Генерация ошибок и оператор throw
+* Встроенные объекты
